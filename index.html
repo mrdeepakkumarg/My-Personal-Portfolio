@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- --------- Fontawesome ---------- -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- --------- FAVICON ---------- -->
+    <link
+      rel="shortcut icon"
+      href="assets/dk.png"
+      type="image/x-icon"
+    />
+
+    <title>Deepak_Kumar | Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Deepak Kumar</p>
+          <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Projects</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <button class="btn">
+            <a
+              href="https://drive.google.com/file/d/1vNY1cZdxHQVblxREUE3byjOPEsIqK5hN/view?usp=drivesdk"
+              target="_blank"
+            >
+              Download CV <i class="fa-regular fa-file"></i
+            ></a>
+          </button>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>Deepak Kumar</span>
+            </div>
+            <div class="featured-name">
+              <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Frontend developer with a passion for creating visually stunning
+                and user-friendly websites.
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <button class="btn blue-btn">
+                <a href="https://github.com/mrdeepakkumarg" target="_blank"><i class="fa-brands fa-github main-git"></i></a>
+              </button>
+              <button class="btn">
+                <a
+                  href="https://drive.google.com/file/d/1vNY1cZdxHQVblxREUE3byjOPEsIqK5hN/view?usp=drivesdk"
+                  target="_blank"
+                >
+                  Download CV <i class="fa-regular fa-file"></i
+                ></a>
+              </button>
+            </div>
+            <div class="social_icons">
+              <div class="icon">
+                <a href="https://instagram.com/deepak_kumar_1_4_3" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+              </div>
+              <div class="icon">
+                <a href="https://www.linkedin.com/mrdeepakg" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+              <div class="icon">
+                <a href="https://twitter.com/Deepak_1_4_3" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              <div class="icon">
+                <a href="https://youtube.com/facthits07" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="./assets/main.png" alt="avatar" />
+            </div>
+          </div>
+        </section>
+
+         <!-- -------------- Skills BOX ---------------- -->
+        <section class="skills">
+          <div class="skills-imgs">
+            <img src="assets/Skills/HTML_new.png" alt="">
+            <img src="assets/Skills/Css_new.png" alt="">
+            <img src="assets/Skills/Javascript_new.png" alt="">
+            <img src="assets/Skills/Bootstrap_new.png" alt="">
+            <img src="assets/Skills/Tailwind.png" alt="">
+          </div>
+        </section>
+
+        <!-- -------------- ABOUT BOX ---------------- -->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="skills-box">
+                <img src="assets/deepak_about.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="about-info">
+                <h3>My introduction</h3>
+
+                <p>I'm Deepak, interested in pursuing a career in the field of web development. I have good knowledge about scripting languages like html/html5, CSS/CSS3, Scss, bootstrap, github, and JavaScript.
+                I have interned at Codsoft.</p>
+                <div class="about-btn">
+                  <button class="btn">
+                    <a href="https://drive.google.com/file/d/1vNY1cZdxHQVblxREUE3byjOPEsIqK5hN/view?usp=drivesdk"
+                  target="_blank">Download CV <i class="fa-regular fa-circle-down"></i></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+
+        <!-- -------------- PROJECT BOX ---------------- -->
+
+        <section class="section" id="projects">
+          <div class="top-header">
+            <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <a href="https://deep-mart-git-main-mrdeepakkumargs-projects.vercel.app/" target="_blank" class="project-box box-1">
+              <h3 class="project-title">E-commerce website</h3>
+              <label>HTML, CSS, JavaScript</label>
+            </a>
+            <a href="https://weather-app-git-main-mrdeepakkumargs-projects.vercel.app/" target="_blank" target="_blank" class="project-box box-2">
+              <h3>Weather Info</h3>
+              <label>HTML, CSS, JavaScript</label>
+            </a>
+            <a href="https://codsoft-todo-list-8nyp.vercel.app" target="_blank" class="project-box box-3">
+              <h3>To-do Lists</h3>
+              <label>HTML, CSS, JavaScript</label>
+            </a>
+            <a href="https://tic-tak-toe-game-sigma.vercel.app/" target="_blank" class="project-box box-4">
+              <h3>Tic-Tak-Toe Game</h3>
+              <label>HTML, CSS, JavaScript</label>
+            </a>
+            <a href="https://currency-converter-mrdeepakkumargs-projects.vercel.app/" target="_blank" class="project-box box-5">
+              <h3>Currency Converter</h3>
+              <label>HTML, CSS, JavaScript</label>
+            </a>
+          </div>
+        </section>
+
+        <!-- -------------- CONTACT BOX ---------------- -->
+
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="contact-info">
+                <h2>Find Me <i class="fa-solid fa-arrow-turn-down"></i></h2>
+                <p>
+                  <i class="uil uil-envelope"></i>
+                  Email: mrdeepakg07@gmail.com
+                </p>
+                <p><i class="uil uil-phone"></i> Contact No: 6393643802</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-control">
+                <div class="form-inputs">
+                  <input type="text" class="input-field" placeholder="Name" />
+                  <input type="text" class="input-field" placeholder="Email" />
+                </div>
+                <div class="text-area">
+                  <textarea placeholder="Message"></textarea>
+                </div>
+                <div class="form-button">
+                  <button class="btn">
+                    Send <i class="fa-solid fa-share"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- --------------- FOOTER --------------- -->
+      <footer>
+        <div class="top-footer">
+          <p>Deepak Kumar</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+              <div class="icon">
+                <a href="https://instagram.com/deepak_kumar_1_4_3" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+              </div>
+              <div class="icon">
+                <a href="https://www.linkedin.com/mrdeepakg" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+              <div class="icon">
+                <a href="https://twitter.com/Deepak_1_4_3" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              <div class="icon">
+                <a href="https://youtube.com/facthits07" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+        <div class="bottom-footer">
+          <p>
+           &copy; Copyright 2024 🧡
+            <a href="#home" style="text-decoration: none">Deepak Kumar</a> - All
+            rights reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="script.js"></script>
+  </body>
+</html>
